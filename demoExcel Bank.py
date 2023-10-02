@@ -122,7 +122,7 @@ while True:
     if option == 4:
         print("Check Balance")
         accno=input("Enter the account no.")
-        print(SaveToExcel.loc[accno])
+        print(show(accno))
         continue
     if option == 5:
         print("Close")
